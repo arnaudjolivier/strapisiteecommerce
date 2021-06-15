@@ -1,0 +1,205 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color:slategrey;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+
+.btnMenu{
+  border: 1px solid black;
+  background-color: aqua;
+}
+
+
+.logo{
+    width: 100px;
+    height:100px;
+    margin-left: 50% ;
+}
+
+
+
+.titleIndex{
+  color: white;
+  text-shadow: 2px 1px 2px black;
+  font-family:"Impact";
+  font-weight: 600;
+}
+.carouselh3{
+  color: white;
+  border: 1 px solid black;
+  background-color: black;
+  width: 400px;
+  font-size: 35px;
+  text-shadow: 2px 1px 2px yellow;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: italic;
+
+}
+.articlecustom{
+  text-align: center;
+}
+
+.ImgHover{
+  width: 300px;
+  height: 350px;
+}
+.priceP{
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.ImgHover:hover{
+  width: 400px;
+  height: 420px;
+}
+
+.carouselBorder{
+  border: 2px solid black;
+}
+
+.carouselP{
+  color: white;
+  font-size: 20px;
+  border: 1 px solid black;
+  background-color: black;
+  width: 500px;
+  text-shadow: 2px 1px 2px yellow;
+  font-style: italic;
+}
+.App-Header{
+    text-align: center;
+    background-color: #1c1c1c;
+    border: 1px solid black;
+}
+
+.imgPanier{
+  width: 200px;
+  height: auto;
+}
+.PanierDiv{
+  border: 2px solid black;
+  height: 450px;
+  background-color: lightgray;
+  text-align: center;
+}
+
+.divOrder{
+  border: 1px solid black;
+  text-align: center;
+  width: 200px;
+  background-color: lightskyblue;
+}
+
+.priceorder{
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.Article{
+    text-align: center;
+    border: 2px solid purple;
+}
+
+
+
+.h1Panier{
+  text-align: center;
+  border: 1px solid black;
+  background-color: grey;
+  font-family: "Impact";
+}
+
+.imgArticle{
+    width: 90px;
+    height: 75px;
+}
+
+.articlecustom{
+    border: 1px solid black;
+    background-color:cornflowerblue;
+}
+
+.articleDesc{
+    border: 1px solid black;
+    background-color: #8181F7;
+    font-family: "Impact";
+}
+
+.buttonAddP{
+  font-size: 15px;
+  background-color:gainsboro;
+  border: 2px solid #4CAF50;
+  font-family: "Impact";
+}
+.buttonAddP:hover{
+  font-size: 18px;
+  background-color:greenyellow;
+
+}
+
+.footer{
+  text-align: center;
+  background-color: #000000C4;
+  border: 2px solid black;
+  height: 200px;
+  color: white;
+  font-size: 20px;
+}
+.divFooterLeft{
+  width: 30%;
+  margin-left: 10%;
+  margin-top: 20px;
+  height: 150px;
+}
+
+.listeFooter li{
+  font-size: 12px;
+  text-align:left;
+
+}
+.flex{
+  display: flex;
+}
+
+.indexA{
+  width: 483px;
+  height: 300px;
+  border: 2px solid black;
+  display:flex;
+  border: 2px solid #525252;
+}
+
+.centerRow{
+  float:center;
+}
+.categorieA{
+  font-weight: bold;
+  margin-top: 25%;
+  margin-left: 3%;
+}
+
+.imgCat{
+  width: 280px;
+  height: 200px;
+  margin-top:20px;
+}
+
+.btn:hover {
+  color: #212529;
+  text-decoration: none;
+  font-size: 150%;
+  }
+
+
+.rightDiv{
+  margin-right: 0px;
+}

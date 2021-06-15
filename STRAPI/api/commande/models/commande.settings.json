@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "commandes",
+  "info": {
+    "name": "Commande"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "numero": {
+      "type": "integer"
+    },
+    "articles": {
+      "collection": "article"
+    }
+  }
+}
